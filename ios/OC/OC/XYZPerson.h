@@ -23,4 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *) getFullName;
 @end
 
++ person
+
 NS_ASSUME_NONNULL_END
