@@ -12,10 +12,15 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        XYZPerson *person = [[XYZPerson alloc] init];
+        XYZShoutingPerson *person = XYZShoutingPerson.person;
 
         [person sayHello];
         
+        
+        XYZPerson *nilPerson;
+        if (!nilPerson) {
+            NSLog(@"it's a nil");
+        }
     }
     return 0;
 }

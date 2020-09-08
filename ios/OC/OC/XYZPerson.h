@@ -12,17 +12,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XYZPerson : NSObject
 
-@property (readonly) NSString *firstName;
-@property (readonly) NSString *lastName;
-@property (readonly) NSString *fullName;
+@property NSString *firstName;
+@property NSString *lastName;
+@property NSString *fullName;
 @property NSDate *birthDate;
 @property NSNumber *yearofBirth;
 
 - (void) sayHello;
 - (void) saySomething: (NSString *) greeting;
 - (NSString *) getFullName;
-@end
++ (id)person;
 
-+ person
+@end
 
 NS_ASSUME_NONNULL_END

@@ -20,7 +20,12 @@
     return self;
 }
 
-
++ (id) person
+{
+    XYZPerson *aPerson = [[self alloc] init];
+    
+    return aPerson;
+}
 
 - (void) sayHello
 {
